@@ -21,7 +21,7 @@ resource "argocd_project" "this" {
 
     destination {
       name      = var.destination_cluster
-      namespace = "kafka"
+      namespace = "ingestion"
     }
 
     orphaned_resources {
@@ -71,7 +71,7 @@ resource "argocd_application" "this" {
 
     destination {
       name      = var.destination_cluster
-      namespace = "kafka"
+      namespace = "ingestion"
     }
 
     sync_policy {
