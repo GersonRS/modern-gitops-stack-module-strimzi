@@ -21,7 +21,7 @@ resource "argocd_project" "this" {
 
     destination {
       name      = var.destination_cluster
-      namespace = "strimzi"
+      namespace = "kafka"
     }
 
     orphaned_resources {
@@ -71,7 +71,7 @@ resource "argocd_application" "this" {
 
     destination {
       name      = var.destination_cluster
-      namespace = "strimzi"
+      namespace = "kafka"
     }
 
     sync_policy {
