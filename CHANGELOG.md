@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.2.0](https://github.com/GersonRS/modern-gitops-stack-module-strimzi/compare/v1.1.0...v1.2.0) (2024-08-19)
+
+
+### 🚀 New Features
+
+* change namespace ([d840551](https://github.com/GersonRS/modern-gitops-stack-module-strimzi/commit/d8405510e96fa634b05055cbb9a6a60a79f777c4))
+
+
+### 📚 Documentation
+
+* **terraform-docs:** generate docs and write to README.adoc ([b4618d2](https://github.com/GersonRS/modern-gitops-stack-module-strimzi/commit/b4618d23300b764dd331e9563791ba26cef9fc8b))
+
 ## [1.1.0](https://github.com/GersonRS/modern-gitops-stack-module-strimzi/compare/v1.0.0...v1.1.0) (2024-08-19)
 
 
